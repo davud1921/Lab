@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>CV Creator Tool Feedback Form</h2>
+
+<hr>
+
+<form action="/action_page.php" method="post">
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="e-mail"><br><br>
+  
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <p><i>Your Feedback:</i></p>
+    <textarea placegolder='Feedback' rows="4" cols="45">
+    </textarea><br><br>
+
+    <label><u>How did you hear about out CV Creator Tool?</u></label>
+  <select name="Gender">
+    <option value="Facebook">Facebook</option>
+    <option value="LinkedIn" selected>LinkedIn</option>
+    <option value="Instagram">Instagram</option>
+    <option value="TikTok">TikTok</option>
+    <option value="Others">Others</option>
+  </select><br><br>
+
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"><u><b>Sign up for the newsletter</b></u></label><br>
+    <br>
+
+    <p><b><i>Would you use this CV Creator Tool again?</b></i></p>
+  <input type="radio" id="yes" name="yes" value="yes" checked>
+  <label for="yes">Yes</label><br>
+
+  <input type="radio" id="no" name="no" value="no">
+  <label for="no">No</label>
+
+  <div>
+  <input type="radio" id="maybe" name="maybe" value="maybe">
+  <label for="maybe">Maybe</label><br><br>
+  </div>
+
+  <input type="submit" value="Submit Feedback">
+</form>
+
+</body>
+</html>

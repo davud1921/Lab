@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Subscription Managment Form</h2>
+
+<hr>
+
+<form action="/action_page.php" method="post">
+    <fieldset>
+        <legend>Details</legend>
+        <label><u><b>Email:</u></b></label>
+        <input type="text"><br><br>
+        <label><u><b>Link:</b></u></label>
+        <input type="text"><br><br>
+        <label><u><b>Password:</b></u></label>
+        <input type="password"><br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>Reasons for Ending Subscription</legend>
+        <label><b>Select Reason:</b></label>
+        <select>
+            <option>Bad quality</option>
+            <option>Small Size</option>
+            <option selected>Other</option>
+        </select><br><br><br>
+
+        <label><i>Would you use one of our other tools again?</i></label><br><br>
+        <input type="radio" checked>Yes<br>
+        <input type="radio" >No<br>
+        <input type="radio" >Maybe<br>
+        <br>
+        <label>Additional Comments:</label><br>
+        <textarea placeholder="Your comment..." rows="5" cols="45"></textarea><br>
+    </fieldset>
+    <br><br>
+        <input type="submit" value="Submit"><br><br>
+
+</form>
+</body>
+</html>
